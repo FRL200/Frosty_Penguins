@@ -6,13 +6,12 @@ import Layout from "./pages/Layout";
 import NoPage from "./pages/NoPage";
 import MajorDeterminator from "./pages/MajorDeterminator";
 
-//import reportWebVitals from './reportWebVitals';
-//import 'semantic-ui-css/semantic.min.css';
-//fix this ^^
+
 
 
 
 function App() {
+
     return (
         <BrowserRouter>
             <Routes>
@@ -24,6 +23,9 @@ function App() {
             </Routes>
         </BrowserRouter>
     );
+=======
+  
+
 }
 
 export default App;
