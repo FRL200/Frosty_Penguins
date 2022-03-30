@@ -17,7 +17,7 @@ function App() {
       <ButtonComponent 
       content="Major Determinator" 
       cssClass='e-outline'
-      onClick={MajorDeterminator}
+      //onClick={}
       ></ButtonComponent>
       <ButtonComponent content="Schedule Builder" cssClass='e-outline'></ButtonComponent>
       <ButtonComponent content="Major Navigator" cssClass='e-outline'></ButtonComponent>
