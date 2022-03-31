@@ -1,6 +1,3 @@
-import { React } from 'react';
-
-
 
 //This page sets up a basic Major Determinator page for a user
 const MajorDeterminator = () => {
