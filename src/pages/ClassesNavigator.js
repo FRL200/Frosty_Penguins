@@ -1,3 +1,5 @@
+
+//This page sets up a Classes Navigator page for any user to use
 const ClassesNavigator = () => {
     return <>
         <h1>Classes Navigator</h1>

@@ -1,6 +1,11 @@
+
+//Imports for React, router, and buttons--------------------
 import React from 'react';
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import './App.css';
+import { ButtonComponent } from '@syncfusion/ej2-react-buttons';
+//----------------------------------------------------------
+
+
 
 //Import statements for all of the pages--------------
 import Home from './pages/Home.js';
@@ -9,17 +14,23 @@ import NoPage from "./pages/NoPage";
 import MajorDeterminator from "./pages/MajorDeterminator";
 import MajorNavigator from "./pages/MajorNavigator";
 import ClassesNavigator from "./pages/ClassesNavigator";
+//-------------------------------------------------------
+
+//Imports for CSS Files----------------------------------
+import './App.css';
+//-----------------------------------------------------
 
 
 
-import { ButtonComponent } from '@syncfusion/ej2-react-buttons';
-import { enableRipple } from '@syncfusion/ej2-base';
-
-
+//I also had to change App to a class for this to work, hopefully it does not cause any issues
 
 class App extends React.Component {
     //return (
         //<div>
+
+
+    //Essentially, when a button is clicked, the onClick in the render() 
+    //below comes up to here and sets the window.location to the correct place
 
     btnClickHome() {
         window.location = "/";
@@ -39,7 +50,7 @@ class App extends React.Component {
 
 
 
-
+    //This render window sets up the button components and the routing paths so the user can navigate
     render() {
         return (<div>
             <ButtonComponent cssClass='e-link' onClick={this.btnClickHome.bind(this)}>Home</ButtonComponent>
@@ -61,8 +72,11 @@ class App extends React.Component {
 
         </div>);
     }
+}
 
+export default App;
 
+//Everything below here is for reference incase we need to look back at it-------------------------
 
         /*
       <h1>Frosty Penguins</h1>
@@ -86,9 +100,9 @@ class App extends React.Component {
             </BrowserRouter>*/
        // </div>
    // );
-}
 
-export default App;
+
+
 
 /*function App() {
     return (

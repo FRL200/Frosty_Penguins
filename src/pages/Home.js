@@ -1,6 +1,6 @@
 import {React} from 'react';
 
-
+//This page sets up the home page for a user to navigate to
 const Home = () => {
     return <>
         <h1>Home</h1>

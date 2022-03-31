@@ -1,3 +1,5 @@
+
+//This page sets up the basic Major Navigator page for a user
 const MajorNavigator = () => {
     return <>
         <h1>Major Navigator</h1>
