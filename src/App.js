@@ -54,7 +54,7 @@ class App extends React.Component {
     render() {
         return (<div>
             <ButtonComponent cssClass='e-link' onClick={this.btnClickHome.bind(this)}>Home</ButtonComponent>
-            <ButtonComponent cssClass='e-link' onClick={this.btnClickMajorDeterminator.bind(this)}>Schedule Builder</ButtonComponent>
+            <ButtonComponent cssClass='e-link' onClick={this.btnClickMajorDeterminator.bind(this)}>Major Determinator</ButtonComponent>
             <ButtonComponent cssClass='e-link' onClick={this.btnClickMajorNav.bind(this)}>Major Navigator</ButtonComponent>
             <ButtonComponent cssClass='e-link' onClick={this.btnClickClassesNav.bind(this)}>Classes Navigator</ButtonComponent>
 
