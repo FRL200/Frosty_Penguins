@@ -24,6 +24,7 @@ img {
     width: 400px;
 }
 
+
 .main-container{
     background-image: url("./images/BackgroundImage.png");
     background-size: cover;
@@ -33,61 +34,69 @@ img {
     padding:1rem;
 }
 
+/*Blue Color: #99ffff*/
+
+
+
+
 /* Custom class for Home Button-------------------------*/
 .e-custom {
-    height: 30px;
+    height: 40px;
     width: 80px;
-    background-color: #99ffff;
+    background-color: #ffffff;
     color: #000000;
+    font-size: 15px;
 }
 
-.e-custom:hover {
-    background-color: #00ffff;
-    color: #000000;
-}
+    .e-custom:hover {
+        background-color: #e3e4e5;
+        color: #000000;
+    }
 
 
 /*Custom class for Major Determinator Button-----------------*/
 .e-custom1 {
-    height: 30px;
+    height: 40px;
     width: 180px;
-    background-color: #99ffff;
+    background-color: #ffffff;
     color: #000000;
+    font-size: 15px;
 }
 
-.e-custom1:hover {
-    background-color: #00ffff;
-    color: #000000;
-}
+    .e-custom1:hover {
+        background-color: #e3e4e5;
+        color: #000000;
+    }
 
 
 /*Custom class for Major Navigator Button---------------------*/
 .e-custom2 {
-    height: 30px;
+    height: 40px;
     width: 160px;
-    background-color: #99ffff;
+    background-color: #ffffff;
     color: #000000;
+    font-size: 15px;
 }
 
-.e-custom2:hover {
-    background-color: #00ffff;
-    color: #000000;
-}
+    .e-custom2:hover {
+        background-color: #e3e4e5;
+        color: #000000;
+    }
 
 
 /*Custom class for Classes Navigator Button----------------------*/
 .e-custom3 {
-    height: 30px;
+    height: 40px;
     width: 155px;
-    background-color: #99ffff;
+    background-color: #ffffff;
     color: #000000;
+    font-size: 15px;
 }
 
-.e-custom3:hover {
-    background-color: #00ffff;
-    color: #000000; 
-
-}
+    .e-custom3:hover {
+        background-color: #e3e4e5;
+        color: #000000;
+    }
 
 
 /*

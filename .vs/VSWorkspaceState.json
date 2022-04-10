@@ -4,9 +4,9 @@
     "\\.circleci",
     "\\public",
     "\\src",
-    "\\src\\images",
-    "\\src\\pages"
+    "\\src\\pages",
+    "\\src\\pages\\styling"
   ],
-  "SelectedNode": "\\src\\App.css",
+  "SelectedNode": "\\src\\pages\\Home.js",
   "PreviewInSolutionExplorer": false
 }
