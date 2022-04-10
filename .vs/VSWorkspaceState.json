@@ -4,8 +4,9 @@
     "\\.circleci",
     "\\public",
     "\\src",
+    "\\src\\images",
     "\\src\\pages"
   ],
-  "SelectedNode": "\\src\\pages\\MajorDeterminator.js",
+  "SelectedNode": "\\src\\App.css",
   "PreviewInSolutionExplorer": false
 }
