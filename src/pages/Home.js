@@ -67,7 +67,7 @@ const Home = () => {
                 fontSize: "35px"
 
             }}>
-                <h1>Major Navigator</h1>
+                <h1>Major Explorer</h1>
 
             </div>
 
@@ -80,7 +80,7 @@ const Home = () => {
                 marginBottom: "30px"
             }}>
 
-                <p>Our Major Navigator allows you to look through majors, their requirements, and classes, to see if you are interested in them!</p>
+                <p>Our Major Explorer allows you to look through majors, their requirements, and classes, to see if you are interested in them!</p>
 
 
             </div>
@@ -93,7 +93,7 @@ const Home = () => {
                 fontSize: "35px"
 
             }}>
-                    <h1>Classes Navigator</h1>
+                    <h1>Schedule Builder</h1>
 
             </div>
 
@@ -104,7 +104,7 @@ const Home = () => {
                 fontSize: "20px"
             }}>
 
-                <p>Our Classes Navigator allows you to search through different classes and what they have to offer!</p>
+                <p>Our Schedule Builder allows you to search through different classes and to build a schedule based on what they have to offer!</p>
 
                 </div>
 

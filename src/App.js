@@ -13,8 +13,8 @@ import Home from './pages/Home.js';
 import Layout from "./pages/Layout";
 import NoPage from "./pages/NoPage";
 import MajorDeterminator from "./pages/MajorDeterminator";
-import MajorNavigator from "./pages/MajorNavigator";
-import ClassesNavigator from "./pages/ClassesNavigator";
+import MajorExplorer from "./pages/MajorExplorer";
+import ScheduleBuilder from "./pages/ScheduleBuilder";
 import image from "./images/BackgroundImage.png"
 //-------------------------------------------------------
 
@@ -50,12 +50,14 @@ class App extends React.Component {
     }
 
     btnClickMajorNav() {
-        window.location = "MajorNavigator";
+        window.location = "MajorExplorer";
     }
 
     btnClickClassesNav() {
-        window.location = "ClassesNavigator";
+        window.location = "ScheduleBuilder";
     }
+
+
 
 
     //<div style={{ backgroundImage: `url(${image})` }}> </div>
@@ -70,19 +72,20 @@ class App extends React.Component {
             fontSize: '50px',
             backgroundSize: 'cover',
         };
-
-
        return (<div style={styleBackground}>
 */
 
+
         return (
 
-        <>
+            <>
+
+
             <section className="main-container">
                 <ButtonComponent cssClass="e-custom" onClick={this.btnClickHome.bind(this)}>Home</ButtonComponent>
                 <ButtonComponent cssClass="e-custom1" onClick={this.btnClickMajorDeterminator.bind(this)}>Major Determinator</ButtonComponent>
-                <ButtonComponent cssClass="e-custom2" onClick={this.btnClickMajorNav.bind(this)}>Major Navigator</ButtonComponent>
-                <ButtonComponent cssClass="e-custom3" onClick={this.btnClickClassesNav.bind(this)}>Classes Navigator</ButtonComponent>
+                    <ButtonComponent cssClass="e-custom2" onClick={this.btnClickMajorNav.bind(this)}>Major Explorer</ButtonComponent>
+                    <ButtonComponent cssClass="e-custom3" onClick={this.btnClickClassesNav.bind(this)}>Schedule Builder</ButtonComponent>
 
                 <BrowserRouter>
                     <Routes>
@@ -90,8 +93,8 @@ class App extends React.Component {
                             <Route index element={<Home />} />
                             <Route path="*" element={<NoPage />} />
                             <Route path="MajorDeterminator" element={<MajorDeterminator />} />
-                            <Route path="MajorNavigator" element={<MajorNavigator />} />
-                            <Route path="ClassesNavigator" element={<ClassesNavigator />} />
+                                <Route path="MajorExplorer" element={<MajorExplorer />} />
+                                <Route path="ScheduleBuilder" element={<ScheduleBuilder />} />
                         </Route>
                     </Routes>
                         </BrowserRouter>
