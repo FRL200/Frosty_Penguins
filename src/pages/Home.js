@@ -12,7 +12,7 @@ const Home = () => {
                 alignItems: "center",
                 justifyContent: "center",
                 color: "White",
-                fontSize: "50px"
+                fontSize: "3vw"
 
             }}>
                 <h1 align="center">Home</h1>
@@ -22,7 +22,7 @@ const Home = () => {
                 alignItems: "center",
                 justifyContent: "center",
                 color: "White",
-                fontSize: "25px",
+                fontSize: "1.5vw",
                 marginBottom: "50px"
 
             }}>
@@ -35,7 +35,7 @@ const Home = () => {
                 alignItems: "center",
                 justifyContent: "center",
                 color: "White",
-                fontSize: "35px"
+                fontSize: "2vw"
 
             }}>
                 <h1>Major Determinator</h1>
@@ -48,7 +48,7 @@ const Home = () => {
                 alignItems: "center",
                 justifyContent: "center",
                 color: "White",
-                fontSize: "20px",
+                fontSize: "1.25vw",
                 marginBottom: "30px"
             }}>
 
@@ -64,7 +64,7 @@ const Home = () => {
                 alignItems: "center",
                 justifyContent: "center",
                 color: "White",
-                fontSize: "35px"
+                fontSize: "2vw"
 
             }}>
                 <h1>Major Explorer</h1>
@@ -76,7 +76,7 @@ const Home = () => {
                 alignItems: "center",
                 justifyContent: "center",
                 color: "White",
-                fontSize: "20px",
+                fontSize: "1.25vw",
                 marginBottom: "30px"
             }}>
 
@@ -90,7 +90,7 @@ const Home = () => {
                 alignItems: "center",
                 justifyContent: "center",
                 color: "White",
-                fontSize: "35px"
+                fontSize: "2vw"
 
             }}>
                     <h1>Schedule Builder</h1>
@@ -101,7 +101,7 @@ const Home = () => {
                 alignItems: "center",
                 justifyContent: "center",
                 color: "White",
-                fontSize: "20px"
+                fontSize: "1.25vw"
             }}>
 
                 <p>Our Schedule Builder allows you to search through different classes and to build a schedule based on what they have to offer!</p>

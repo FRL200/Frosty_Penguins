@@ -40,11 +40,11 @@ img {
 
 /* Custom class for Home Button-------------------------*/
 .e-custom {
-    height: 40px;
-    width: 80px;
+    height: 5vh;
+    width: 5vw;
     background-color: #ffffff;
     color: #000000;
-    font-size: 15px;
+    font-size: 2vh;
 }
 
     .e-custom:hover {
@@ -55,11 +55,11 @@ img {
 
 /*Custom class for Major Determinator Button-----------------*/
 .e-custom1 {
-    height: 40px;
-    width: 180px;
+    height: 5vh;
+    width: 9vw;
     background-color: #ffffff;
     color: #000000;
-    font-size: 15px;
+    font-size: 2vh;
 }
 
     .e-custom1:hover {
@@ -70,11 +70,11 @@ img {
 
 /*Custom class for Major Navigator Button---------------------*/
 .e-custom2 {
-    height: 40px;
-    width: 160px;
+    height: 5vh;
+    width: 8.25vw;
     background-color: #ffffff;
     color: #000000;
-    font-size: 15px;
+    font-size: 2vh;
 }
 
     .e-custom2:hover {
@@ -85,11 +85,11 @@ img {
 
 /*Custom class for Classes Navigator Button----------------------*/
 .e-custom3 {
-    height: 40px;
-    width: 155px;
+    height: 5vh;
+    width: 7.75vw;
     background-color: #ffffff;
     color: #000000;
-    font-size: 15px;
+    font-size: 2vh;
 }
 
     .e-custom3:hover {
