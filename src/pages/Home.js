@@ -1,6 +1,6 @@
 import { React } from 'react';
-import './styling/Home.css'
-
+import photoStyle from './styling/Home.css'
+import penguinImage from './PageImages/PenguinImage.png';
 
 
 //This page sets up the home page for a user to navigate to
@@ -42,7 +42,9 @@ const Home = () => {
 
             </div>
 
-
+            <div className="photoStyle">
+                <img src={penguinImage} alt="PenguinPhoto" />
+            </div>
            
             <div style={{
                 alignItems: "center",
@@ -53,10 +55,12 @@ const Home = () => {
             }}>
 
 
-            <p>Our Major Determinator allows you to answer a quick questionaire to tell you what majors suit you best!</p>
+                <p>Our Major Determinator allows you to answer a quick questionaire to tell you what majors suit you best!</p>
+
+
+
 
             </div>
-
 
 
 
@@ -84,6 +88,7 @@ const Home = () => {
 
 
             </div>
+
 
 
             <div style={{
