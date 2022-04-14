@@ -15,6 +15,9 @@ import NoPage from "./pages/NoPage";
 import MajorDeterminator from "./pages/MajorDeterminator";
 import MajorExplorer from "./pages/MajorExplorer";
 import ScheduleBuilder from "./pages/ScheduleBuilder";
+import UFColleges from "./pages/UFColleges";
+import UFEngineering from "./pages/UFEngineering";
+import UFCSEClasses from "./pages/UFCSEClasses";
 import image from "./images/BackgroundImage.png"
 //-------------------------------------------------------
 
@@ -95,6 +98,9 @@ class App extends React.Component {
                             <Route path="MajorDeterminator" element={<MajorDeterminator />} />
                                 <Route path="MajorExplorer" element={<MajorExplorer />} />
                                 <Route path="ScheduleBuilder" element={<ScheduleBuilder />} />
+                                <Route path="UFColleges" element={<UFColleges />} />
+                                <Route path="UFEngineering" element={<UFEngineering />} />
+                                <Route path="UFCSEClasses" element={<UFCSEClasses />} />
                         </Route>
                     </Routes>
                         </BrowserRouter>

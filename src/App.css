@@ -97,6 +97,29 @@ img {
         color: #000000;
     }
 
+.e-custom4 {
+    height: 40px;
+    width: 220px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 15px;
+}
+    .e-custom4:hover {
+        background-color: #e3e4e5;
+        color: #000000;
+    }
+
+.e-custom5 {
+    height: 40px;
+    width: 350px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 15px;
+}
+    .e-custom5:hover {
+        background-color: #e3e4e5;
+        color: #000000;
+    }
 
 /*
     .e-custom:focus {
