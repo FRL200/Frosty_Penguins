@@ -4,9 +4,10 @@
     "\\.circleci",
     "\\public",
     "\\src",
+    "\\src\\images",
     "\\src\\pages",
     "\\src\\pages\\styling"
   ],
-  "SelectedNode": "\\src\\pages\\ScheduleBuilder.js",
+  "SelectedNode": "\\src\\pages\\Home.js",
   "PreviewInSolutionExplorer": false
 }
