@@ -1,7 +1,7 @@
 import React from 'react'
 import { Form } from 'semantic-ui-react'
 
-const NumberCreditSemesters = () => (
+const NumberCreditsSemesters = () => (
   <Form>
     <Form.Field>
       <label>Number of Credits</label>

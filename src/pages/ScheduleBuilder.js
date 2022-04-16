@@ -6,7 +6,7 @@ import DropdownAp from './Components/DropdownAp.js';
 import DropdownIb from './Components/DropdownIB.js';
 import NumberCreditsSemesters from './Components/NumberCreditsSemesters.js';
 
-//This page sets up a Classes Navigator page for any user to use
+
 const ScheduleBuilder = () => (
             <div>
             <h1 >Schedule Builder</h1>
@@ -24,16 +24,7 @@ const ScheduleBuilder = () => (
 
 export default ScheduleBuilder;
 
-// function ScheduleBuilder(){
-//     return(
-//         <div>
-//             <h1>Page</h1>
-//            <ClassSearcher/>
-//         </div>
 
-//     );
-// }
-// export default ScheduleBuilder
 
 
 
