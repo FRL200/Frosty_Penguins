@@ -19,6 +19,7 @@ const ApClasses = [
 const DropdownAp = () => (
   <Dropdown
     placeholder='AP Classes'
+    fluid
     multiple
     search
     selection

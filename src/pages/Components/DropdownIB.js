@@ -11,14 +11,14 @@ const IbClasses = [
   { key: 'al', value: 'al',  text: 'IB History' },
   { key: 'al', value: 'al',  text: 'IB Spanish' },
   { key: 'al', value: 'al',  text: 'IB French' },
-  { key: 'al', value: 'al',  text: 'Ib Psychology' },
+  { key: 'al', value: 'al',  text: 'IB Psychology' },
 
 
 ]
 
 const DropdownIb = () => (
   <Dropdown
-    placeholder='Ib Classes'
+    placeholder='IB Classes'
     fluid
     multiple
     search
