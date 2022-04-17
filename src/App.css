@@ -1,3 +1,15 @@
+/*
+.e-custom{
+    border-radius: 0;
+    height: 30px;
+    width: 80px;
+}
+*/
+
+/*Background Image*/
+
+/* To customize button appearance */
+
 * {
     margin:0;
     padding:0;
@@ -9,7 +21,8 @@ img {
 .BackgroundImagePhoto{
     width: 400px;
 }
-/*Sets up the background to work effectively throughout the product*/
+
+
 .main-container{
     background-image: url("./images/BackgroundImage.png");
     background-size: cover;
@@ -18,58 +31,63 @@ img {
     background-repeat: no-repeat;
     padding:1rem;
 }
+
+/*Blue Color: #99ffff*/
+
 /* Custom class for Home Button-------------------------*/
 .e-custom {
-    height: 5vh;
-    width: 5vw;
+    height: 40px;
+    width: 80px;
     background-color: #ffffff;
     color: #000000;
-    font-size: 2vh;
+    font-size: 15px;
 }
 
-.e-custom:hover {
-    background-color: #e3e4e5;
-    color: #000000;
-}
-/*Custom class for the Major Determinator Button-----------------*/
+    .e-custom:hover {
+        background-color: #e3e4e5;
+        color: #000000;
+    }
+
+
+/*Custom class for Major Determinator Button-----------------*/
 .e-custom1 {
-    height: 5vh;
-    width: 9vw;
+    height: 40px;
+    width: 180px;
     background-color: #ffffff;
     color: #000000;
-    font-size: 2vh;
+    font-size: 15px;
 }
 
-.e-custom1:hover {
-    background-color: #e3e4e5;
-    color: #000000;
-}
+    .e-custom1:hover {
+        background-color: #e3e4e5;
+        color: #000000;
+    }
 
 
-/*Custom class for the Major Explorer Button---------------------*/
+/*Custom class for Major Navigator Button---------------------*/
 .e-custom2 {
-    height: 5vh;
-    width: 8.25vw;
+    height: 40px;
+    width: 160px;
     background-color: #ffffff;
     color: #000000;
-    font-size: 2vh;
+    font-size: 15px;
 }
 
-.e-custom2:hover {
-    background-color: #e3e4e5;
-    color: #000000; 
+    .e-custom2:hover {
+        background-color: #e3e4e5;
+        color: #000000;
+    }
 
-}
 
-
-/*Custom class for the Schedule Builder Button----------------------*/
+/*Custom class for Classes Navigator Button----------------------*/
 .e-custom3 {
-    height: 5vh;
-    width: 7.75vw;
+    height: 40px;
+    width: 155px;
     background-color: #ffffff;
     color: #000000;
-    font-size: 2vh;
+    font-size: 15px;
 }
+
     .e-custom3:hover {
         background-color: #e3e4e5;
         color: #000000;
@@ -114,12 +132,47 @@ img {
     button {
         margin: 25px 5px 20px 20px;
     }
-.e-custom3:hover {
-    background-color: #e3e4e5;
-    color: #000000;
-}
 
-/*Makes it so that the buttons have space between them*/
-button {
-    margin: 25px 5px 20px 20px;
-}
+/*------Table Design---------------*/
+.app-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+    font-size: 32px;
+  }
+  
+  th {
+    background-color: rgb(117, 201, 250);
+  }
+  
+  td {
+    background-color: rgb(205, 235, 253);
+  }
+  
+  form {
+    display: flex;
+    gap: 5px;
+  }
+  
+  form td:last-child {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  form * {
+    font-size: 28px;
+  }
+  /*------^Table Design^---------------*/
