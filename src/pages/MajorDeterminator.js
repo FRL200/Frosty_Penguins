@@ -1,10 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router,Link,Route } from 'react-router-dom';
-import {ButtonComponent} from '@syncfusion/ej2-react-buttons';
 import * as Survey from "survey-react";
-import { type } from "@testing-library/user-event/dist/type";
-//import Button from 'react-bootstrap/Button';
-//import ButtonGroup from 'react-bootstrap/ButtonGroup';
 const {process_results} = require('./MajorDethelper');
 const MajorDeterminator = () => {
  return <>
@@ -12,7 +7,6 @@ const MajorDeterminator = () => {
 <script src="https://unpkg.com/survey-react@1.9.24/survey.react.min.js"></script>
 <div id="surveyContainer"></div>
 <Survey.Survey json={ surveyJSON } onComplete={ sendDataToServer } />
-<p1>This is the Major Determinator Page!</p1>
 ,{document.getElementById("surveyContainer")}
 </>
 
@@ -31,6 +25,5 @@ const MajorDeterminator = () => {
                 console.table(survey.MajorDeterminator)
               }
              
-            //ReactDOM.render(<Survey.Survey json={ surveyJSON } onComplete={ sendDataToServer } />, document.getElementById("surveyContainer"));
 export default MajorDeterminator;
 
