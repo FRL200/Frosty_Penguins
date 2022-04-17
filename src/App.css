@@ -10,14 +10,13 @@ img {
     width: 400px;
 }
 
-
 /*Sets up the background to work effectively throughout the product*/
 .main-container{
     background-image: url("./images/BackgroundImage.png");
     background-size: cover;
     height: 100vh;
     background-position: center;
-    background-repear: no-repeat;
+    background-repeat: no-repeat;
     padding:1rem;
 }
 
@@ -66,7 +65,6 @@ img {
 
 }
 
-
 /*Custom class for the Schedule Builder Button----------------------*/
 .e-custom3 {
     height: 5vh;
@@ -85,3 +83,34 @@ img {
 button {
     margin: 25px 5px 20px 20px;
 }
+    .e-custom3:hover {
+        background-color: #e3e4e5;
+        color: #000000;
+    }
+
+.e-custom4 {
+    height: 40px;
+    width: 220px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 15px;
+}
+    .e-custom4:hover {
+        background-color: #e3e4e5;
+        color: #000000;
+    }
+
+.e-custom5 {
+    height: 40px;
+    width: 350px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 15px;
+}
+    .e-custom5:hover {
+        background-color: #e3e4e5;
+        color: #000000;
+    }
+    button {
+        margin: 25px 5px 20px 20px;
+    }
