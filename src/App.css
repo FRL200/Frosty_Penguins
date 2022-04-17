@@ -1,0 +1,125 @@
+* {
+    margin:0;
+    padding:0;
+}
+img {
+    max-width: 100%;
+}
+
+.BackgroundImagePhoto{
+    width: 400px;
+}
+/*Sets up the background to work effectively throughout the product*/
+.main-container{
+    background-image: url("./images/BackgroundImage.png");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding:1rem;
+}
+/* Custom class for Home Button-------------------------*/
+.e-custom {
+    height: 5vh;
+    width: 5vw;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 2vh;
+}
+
+.e-custom:hover {
+    background-color: #e3e4e5;
+    color: #000000;
+}
+/*Custom class for the Major Determinator Button-----------------*/
+.e-custom1 {
+    height: 5vh;
+    width: 9vw;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 2vh;
+}
+
+.e-custom1:hover {
+    background-color: #e3e4e5;
+    color: #000000;
+}
+
+
+/*Custom class for the Major Explorer Button---------------------*/
+.e-custom2 {
+    height: 5vh;
+    width: 8.25vw;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 2vh;
+}
+
+.e-custom2:hover {
+    background-color: #e3e4e5;
+    color: #000000; 
+
+}
+
+
+/*Custom class for the Schedule Builder Button----------------------*/
+.e-custom3 {
+    height: 5vh;
+    width: 7.75vw;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 2vh;
+}
+    .e-custom3:hover {
+        background-color: #e3e4e5;
+        color: #000000;
+    }
+
+.e-custom4 {
+    height: 40px;
+    width: 220px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 15px;
+}
+    .e-custom4:hover {
+        background-color: #e3e4e5;
+        color: #000000;
+    }
+
+.e-custom5 {
+    height: 40px;
+    width: 350px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 15px;
+}
+    .e-custom5:hover {
+        background-color: #e3e4e5;
+        color: #000000;
+    }
+
+/*
+    .e-custom:focus {
+        background-color: #99ffff;
+        color: #000000;
+    }*/
+    /*
+    .e-custom:active {
+        background-color: #99ffff;
+        color: #000000;
+    }
+    */
+
+    button {
+        margin: 25px 5px 20px 20px;
+    }
+.e-custom3:hover {
+    background-color: #e3e4e5;
+    color: #000000;
+}
+
+/*Makes it so that the buttons have space between them*/
+button {
+    margin: 25px 5px 20px 20px;
+}
