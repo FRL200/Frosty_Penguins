@@ -5,7 +5,7 @@ import {BrowserRouter, Routes, Route, Link} from "react-router-dom";
 import { ButtonComponent } from '@syncfusion/ej2-react-buttons';
 import {enableRipple} from '@syncfusion/ej2-base'
 //check this below
-import "semantic-ui-css/semantic.min.css"
+//import "semantic-ui-css/semantic.min.css"
 //----------------------------------------------------------
 
 //Import statements for all of the pages--------------

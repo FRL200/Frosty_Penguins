@@ -16,7 +16,6 @@ function btnClickUFColleges() {
 const UFEngineering = () => {
     return <>
         <h1>Herbert Wertheim College of Engineering</h1>
-        <p1>This is the Major Explorer page!</p1>
 
      <Accordion
        title="Computer Science and Engineering"
@@ -39,7 +38,7 @@ const UFEngineering = () => {
        </br>
        <p>Credits for Degree: 126"
      />
-     <ButtonComponent content="CPE Classes" cssClass='e-custom1' onClick={btnClickCSE.bind(this)}></ButtonComponent>
+     <ButtonComponent content="CPE Classes" cssClass='e-custom1' ></ButtonComponent>
      <Accordion
        title="Electrical Engineering"
        content="<p>Electrical Engineering is concerned with all phases and development of the transmission and utilization of electric energy and intelligence. From communication systems to electronic components that run computers and motor vehicles, electrical engineers design products and systems that meet the needs of today and tomorrow's electrical and electronic systems.</p>
@@ -50,7 +49,7 @@ const UFEngineering = () => {
        </br>
        <p>Credits for Degree: 128"
      />
-     <ButtonComponent content="EE Classes" cssClass='e-custom1' onClick={btnClickCSE.bind(this)}></ButtonComponent>
+     <ButtonComponent content="EE Classes" cssClass='e-custom1' ></ButtonComponent>
     <h1>        </h1>
     <h1>        </h1>
     <h1>        </h1>
